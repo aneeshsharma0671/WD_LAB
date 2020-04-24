@@ -1,0 +1,19 @@
+  
+<!DOCTYPE html>
+<html>
+    <body>
+        <style type="text/css">
+        li{
+            display: inline;
+            margin-right: 10px;;
+        }
+        </style>
+        <script>
+            document.writeln("Randon numbers on a dice<ol>");
+            for (var a=0;a<30;a++){
+                document.write("<li>"+Math.ceil(Math.random()*6)+"</li>");
+            }
+            document.writeln("</ol>");
+        </script>
+    </body>
+</html>
